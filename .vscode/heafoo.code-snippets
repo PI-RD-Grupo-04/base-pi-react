@@ -1,0 +1,12 @@
+{
+
+	"Print to console": {
+		"scope": "javascript,typescript",
+		"prefix": "log",
+		"body": [
+			"import Header from '../../components/header/Header'",
+			"import Footer from '../../components/footer/Footer'"
+		],
+		"description": "Log output to console"
+	}
+}
