@@ -4,8 +4,9 @@ import Footer from '../../components/footer/Footer'
 
 function Home() {
     return (
-        <>
-            <Header/>
+        <> 
+        <Header/> 
+        
             <h1>Home</h1>
             <Footer/>
         </>
