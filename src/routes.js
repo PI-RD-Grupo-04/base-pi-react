@@ -3,7 +3,6 @@ import Home from './pages/home/Home'
 import Product from './pages/product/Product'
 import Cart from './pages/cart/Cart' 
 import Checkout from './pages/checkout/Checkout'
-import Cart from './pages/cart/Cart'
 import Favorites from "./pages/favorites/Favorites"
 import Address from "./pages/address/Address"
 import Requests from "./pages/requests/Requests"
