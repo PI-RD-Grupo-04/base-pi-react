@@ -8,6 +8,8 @@ import HowToBuy from './pages/howToBuy/HowToBuy';
 import AboutUs from './pages/aboutUs/AboutUs';
 import PlansVed from './pages/plansVed/PlansVed';
 import Favorites from "./pages/favorites/Favorites";
+import Cart from './pages/cart/Cart' 
+import Checkout from './pages/checkout/Checkout'
 
 
 export const Routes = () => {
@@ -22,6 +24,8 @@ export const Routes = () => {
             <Route path="/aboutUS" component={AboutUs}/>
             <Route path="/plansVed" component={PlansVed}/>
             <Route path="/favorites" component={Favorites} />
+            <Route path="/cart" component={Cart} /> 
+            <Route path="/checkout" component={Checkout} /> 
         </Switch>
     )
 }
