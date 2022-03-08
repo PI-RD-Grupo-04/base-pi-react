@@ -1,6 +1,20 @@
 
 /***************************************MODELO DE BOTÃO***********************************/
 /* botão de adicionar verde/branco padrão */
+.btn{
+    margin-top: 20px;
+    background-color: rgb(243, 158, 0);
+    color: tomato;
+    font-weight: bold;
+    
+    padding: 5px 5px;
+    width: 50%;
+    height: 30px;
+    cursor: pointer;
+   }
+
+
+
 .btn-add-card{
     color: white; 
     background-color: #198754; 

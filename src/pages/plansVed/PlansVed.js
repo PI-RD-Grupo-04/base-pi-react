@@ -1,6 +1,7 @@
 import './PlansVed.css'
 import Header from '../../components/header/Header'
 import Footer from '../../components/footer/Footer'
+import Button from '../../components/button/Button'
 
 function PlansVed() {
     return (
@@ -16,7 +17,7 @@ function PlansVed() {
                         <h2>R$ 200,00</h2>
                         <p>Parcele em até 4x sem juros</p>
                         <hr/>
-                        <button className="w-100 ml-0 btn-success btn-lg btnPlano mb-3" type="submit">Assine</button>
+                        <Button card/>
                     </div>
 
                     <div className="item  margens  col-lg-3 mb-3">

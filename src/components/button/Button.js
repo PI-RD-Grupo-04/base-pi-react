@@ -4,21 +4,16 @@ import './Button.css'
 
 function Button(props) {
 
-    let btnClasses = 'btn-comprar '
-    btnClasses += props.verde ? 'verde1' : ''
-    btnClasses += props.azul ? 'azul1' : ''
-    btnClasses += props.preto ? 'preto' : ''
-    // if(props.verde){
-    //     btnClasses = btnClasses + 'verde'
-    // }
+    let btn = 'btn-comprar '
+    btn += props.card ? 'btn-add-card' : ''
+    btn += props.suporte ? 'btn-suport' : ''
+    btn += props.delete ? 'btn-delete' : ''
+    
 
     return (
       <>
-        <li className="item">
-            <div className="nome">{props.nome}</div>
-            <div className="marca">{props.marca}</div>
-            <div className="valor">R${props.valor}</div>
-            <button className={btnClasses}>Comprar</button>
+        <li>
+            <button className={btn}>Button</button>
         </li>
       </>
     )
